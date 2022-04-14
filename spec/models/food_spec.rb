@@ -22,7 +22,7 @@ RSpec.describe Food, type: :model do
     food = Food.create(
         name: "Nasi Uduk",
         description: "Betawi style steamed rice cooked in coconut milk. Delicious!",
-        price: 0
+        price: 0.0
       )
 
     food.valid?
